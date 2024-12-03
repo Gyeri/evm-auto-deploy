@@ -34,7 +34,7 @@ To use **EVM Auto Deploy**, follow these steps:
 4. Create a `.env` file in the root directory with the following variables:
 
    ```bash
-   nano .evn
+   nano .env
    ```
    ### Example `.env` file
 
