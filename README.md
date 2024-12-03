@@ -33,19 +33,23 @@ To use **EVM Auto Deploy**, follow these steps:
 
 4. Create a `.env` file in the root directory with the following variables:
 
-      ```bash
+   ```bash
    nano .evn
    ```
-   - `PRIVATE_KEY`: Your Ethereum private key
+   ### Example `.env` file
+
+   ```bash
+   PRIVATE_KEY=Your Ethereum private key
+   ```
 
 6. Add your desired chain configuration to `Testnet` or `mainnet`.
 
    Testnet
-      ```bash
+   ```bash
    nano chains/testnet.json
    ```
    Mainnet
-       ```bash
+   ```bash
    nano chains/mainnet.json
    ```
 
@@ -74,16 +78,5 @@ npm start
 
 Follow the prompts to select the network, enter the token name, symbol, and supply, and deploy the contract.
 
-## Environment Variables
-
-To use **EVM Auto Deploy**, you need to create a `.env` file in the root directory with the following variables:
-
-- `PRIVATE_KEY`: Your Ethereum private key
-
-### Example `.env` file
-
-```bash
-PRIVATE_KEY=1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef
-```
 
 **EVM Auto Deploy** is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
