@@ -2,6 +2,13 @@
 
 A tool for automatically deploying Ethereum smart contracts to various networks.
 
+## Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (version 6 or higher)
+- Ethereum private key
+- Ethereum RPC node URL
+
 ## Getting Started
 
 To use **EVM Auto Deploy**, follow these steps:
@@ -12,7 +19,7 @@ To use **EVM Auto Deploy**, follow these steps:
    git clone https://github.com/Gyeri/evm-auto-deploy.git
    ```
 
-2. Goto the dir:
+2. Goto the root diretory:
 
    ```bash
    cd evm-auto-deploy
@@ -25,22 +32,29 @@ To use **EVM Auto Deploy**, follow these steps:
    ```
 
 4. Create a `.env` file in the root directory with the following variables:
+
+      ```bash
+   nano .evn
+   ```
    - `PRIVATE_KEY`: Your Ethereum private key
 
-5. Add your desired chain configuration to `chains/testnet.json` or `chains/mainnet.json`.
+6. Add your desired chain configuration to `Testnet` or `mainnet`.
 
-6. Run the script:
+   Testnet
+      ```bash
+   nano chains/testnet.json
+   ```
+   Mainnet
+       ```bash
+   nano chains/mainnet.json
+   ```
+
+8. Run the script:
 
    ```bash
    npm start
    ```
 
-## Prerequisites
-
-- Node.js (version 14 or higher)
-- npm (version 6 or higher)
-- Ethereum private key
-- Ethereum RPC node URL
 
 ## Installation
 
