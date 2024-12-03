@@ -27,4 +27,12 @@
     "symbol": "ETH",
     "explorer": "https://sepolia.etherscan.io"
   }
+  ,
+  {
+    "name": "Sonic Blaze Testnet",
+    "rpcUrl": "https://rpc.blaze.soniclabs.com",
+    "chainId": "57054",
+    "symbol": "s",
+    "explorer": "https://blaze.soniclabs.com"
+  }
 ]
